@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+cd ~/Projects/Directory
 python3 updater.py
 
 git add .
